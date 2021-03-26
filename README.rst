@@ -8,7 +8,7 @@ From Public Endpoint:
 
 .. code-block:: bash
 
-    python2 es2csv_cli.py -u https://search-ztd-dev-oz-k4fxg2bvg24te4uxbi4mxxc2dy.ap-northeast-1.es.amazonaws.com -i live_viewed_by_minute -o csv_live_viewed_by_minute.csv -r -q '{"query" : {"match_all" : {}}}'
+    python2 es2csv_cli.py -u https://xxxxxxx.ap-northeast-1.es.amazonaws.com -i live_viewed_by_minute -o csv_live_viewed_by_minute.csv -r -q '{"query" : {"match_all" : {}}}'
 
 A CLI tool for exporting data from Elasticsearch into a CSV file
 ----------------------------------------------------------------
